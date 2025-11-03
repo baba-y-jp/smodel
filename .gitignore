@@ -1,5 +1,7 @@
 runs/
 job/
-dataset/
+datasets/
 *.sif
 *.log
+.venv
+output/
