@@ -37,7 +37,7 @@ logging:
   # Step interval for logging metrics / saving checkpoints
   # / generating samples / test (validation) / printing metrics
   n_step_log: 100
-  n_step_ckpt: 30000
+  n_step_ckpt: 10000
   n_step_sample: 10000
   n_step_test: 1000
   n_step_print: 1000

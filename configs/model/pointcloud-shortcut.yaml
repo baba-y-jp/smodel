@@ -1,0 +1,19 @@
+_target_: shortcut_models.PointCloudShortcutModel
+
+coord_dim: 3
+feature_dim: 3
+num_points: ${trainer.dataset.num_points}
+cond_input_dim: ${trainer.dataset.cond_input_dim}
+
+model_config:
+  coord_dim: 3
+  feature_dim: 3
+  embed_dim: 128
+  model_dim: 256
+  depth: 6
+  num_heads: 8
+  cond_token_dim: ${trainer.dataset.cond_token_dim}
+  use_shortcut: true
+  pos_embed_dim: 128
+  output_dim: 6
+  use_checkpoint: false

@@ -1,0 +1,15 @@
+defaults:
+  - model: pointcloud-shortcut
+  - trainer: pointcloud_objaverse
+  - optimizer: default
+  - _self_
+
+model:
+  model_config:
+    model_dim: 384
+    num_heads: 12
+
+hydra:
+  output_subdir: null
+  run:
+    dir: .

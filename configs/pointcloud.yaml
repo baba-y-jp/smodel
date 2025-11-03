@@ -1,0 +1,10 @@
+defaults:
+  - model: pointcloud-shortcut
+  - trainer: pointcloud
+  - optimizer: default
+  - _self_
+
+hydra:
+  output_subdir: null
+  run:
+    dir: .
