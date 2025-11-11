@@ -5,3 +5,4 @@ datasets/
 *.log
 .venv
 output/
+outputs/
